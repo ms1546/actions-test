@@ -7,7 +7,7 @@ describe('hello function', () => {
 
     it('should log "Hello, [name]"', () => {
         const name = 'TEST';
-        const expectedMessage = `Hello!!${name}`;
+        const expectedMessage = `Hello!! ${name}`;
         const result = hello(name);
 
         expect(console.log).toHaveBeenCalledWith(expectedMessage);
